@@ -1,0 +1,225 @@
+*{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+body{
+    padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+}
+p{
+    color: #999999;
+    font-size: 15px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 28px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 10px;
+}
+.menu ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 15px 10px 15px 10px;
+    text-decoration: none;
+    color:#888888;
+}
+.menu ul li a:hover;{
+    color:#ef476f;
+}
+.header-area{
+    overflow: hidden;
+ 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-area .traffic-btn{
+    display: inline-block;
+    background: #ef476f;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+}
+
+.hero-area{
+    margin-top: 100px;   
+}
+.hero-area img {
+    width: 80%;
+}
+.hero-area h1{
+    margin-bottom: 10px;
+}
+
+.traffic-hero-btn{
+    display: inline-block;
+    background: #ef476f;
+    padding: 10px 20px 10px 20px;
+    color:white;
+    text-decoration: none;
+    margin-left: 23%;
+    transition: 0.2s;
+}
+
+.finish .traffic-hero-btn{
+    padding: 5px 15px 5px 15px;
+}
+.traffic-hero-btn:hover{
+    background: black;
+    color: #fff;
+    text-decoration: none;
+}
+.service{
+    margin-top: 60px;
+}
+.service-wrapper{
+    margin-top: 50px;
+}
+.service-item{
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    height: 250px;
+}
+
+.plan .service-item{
+    height: 400px;
+}
+.service-item{
+    padding: 20px 10px 20px 10px;
+}
+.service-area{
+    
+    min-height: 320px;
+}
+.service-item:hover{
+    border-color: #ef476f;
+}
+.service-item:hover>.fa{
+    color: #ef476f;
+}
+.service-item:hover>.h3{
+    color: #ef476f;
+}
+.service-item:hover>.p{
+    color: #ef476f;
+}
+.owl-carousel-wrapper.item{
+    padding: 25px;
+    text-align: center;
+    background: url(assets/img/carousel-bg-1.png);
+    color: #fff;
+    margin-top: 20px;
+    min-height: 320px;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+.owl-carousel-wrapper a{
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 20px 25px 20px 25px;
+    margin-top:18px;
+}
+
+.owl-carousel-wrapper h3{
+    margin-top: 30px;
+    opacity: 0.1;
+}
+.owl-carousel-wrapper h4{
+    opacity: 0.1;
+}
+.owl-carousel-wrapper p{
+    color: #fff;
+    opacity: 0.1;
+}
+.owl-carousel-wrapper .a{
+    opacity: 0.1;
+}
+
+.owl-carousel-wrapper:hover{
+    background: #ef476f;
+}
+
+.owl-carousel-wrapper:hover>p{
+    background: #ef476f;
+    opacity: 1;
+}
+.owl-carousel-wrapper:hover>h4{
+    background: #ef476f;
+    opacity: 1;
+}
+.owl-carousel-wrapper:hover>h3{
+    background: #ef476f;
+    opacity: 1;
+}
+
+.plan .traffic-btn{
+    display: inline-block;
+    background: #ef476f;
+    padding: 2px 2px 2px 2px ;
+    color:white;
+    text-decoration: none;
+    position: center;
+}
+
+.client {
+    margin-top: 50px;
+}
+
+.marketing-effort {
+    margin-top: 80px;
+    background-color: #f0f0f0;
+    margin-bottom: 80px;
+}
+
+.traffic-btn {
+    display: inline-block;
+ 
+    color: white;
+    background-color:#ef476f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.finish h4{
+    margin-top: 20px;
+}
+.social-item{
+    margin: 25px;
+}
+.copyright {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display:block;
+    background: #cac7c8;
+    color:white;
+    text-decoration: none;
+    position: center;
+}
